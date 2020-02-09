@@ -93,7 +93,7 @@
         <input type="text" id="userid" name="userid" placeholder="登録番号を入力" value="<?php if(!empty($_POST["userid"])){echo htmlspecialchars($_POST["userid"], ENT_QUOTES);}?>">
         <br/>
         <label for="pass">合言葉</label>
-        <input type="text" id="pass" name="pass" value="" placeholder="合言葉を入力">
+        <input type="password" id="pass" name="pass" value="" placeholder="合言葉を入力">
         <br/>
         <input type="submit" id="login" name="login" value="ログイン">
       </fieldset>

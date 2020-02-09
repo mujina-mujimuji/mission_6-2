@@ -70,7 +70,7 @@
        <input type="text" id="u_name" name="u_name" placeholder="ペンネームを入力" value="<?php if(!empty($_POST["u_name"])){echo htmlspecialchars($_POST["u_name"], ENT_QUOTES);}?>">
        <br/>
        <label for="password">合言葉</label>
-       <input type="text" id="pass" name="pass" value="" placeholder="合言葉を入力">
+       <input type="password" id="pass" name="pass" value="" placeholder="合言葉を入力">
        <br/>
        <label for="password2">合言葉(確認用)</label>
        <input type="text" id="pass_2" name="pass_2" value="" placeholder="合言葉を再度入力">

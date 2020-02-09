@@ -2,13 +2,14 @@
   require "db.php";
 
   try{
-    /*
+
     $dbh = dbConnect();
-    $sql = 'DROP TABLE ym_user';
+    //$sql = 'DROP TABLE ym_photo';
+    $sql = 'TRUNCATE TABLE ym_post';
     $data = null;
 
     $stmt = queryPost($dbh, $sql, $data);
-    */
+
 
     //デバッグ
     $dbh = dbConnect();
