@@ -4,7 +4,7 @@
   function dbConnect(){
     $dsn = 'mysql:dbname=tb210814db;host=localhost;charset=utf8';
     $username = 'tb-210814';
-    $password = 'aBEmVRYTMy';
+    $password = '******'; //伏字にしているので注意
     $options = array(
       // SQL実行時に失敗をスルー
       PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
